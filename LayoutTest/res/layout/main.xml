@@ -18,5 +18,20 @@
             android:layout_height="wrap_content"
             android:text="Check it!"
             android:id="@+id/myCheckBox"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="384dp"
+            android:layout_height="51dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:id="@+id/okButton"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/cancelButton"/>
+    </LinearLayout>
 </LinearLayout>
 
